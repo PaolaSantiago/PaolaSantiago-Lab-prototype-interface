@@ -4,7 +4,7 @@ body {
   font-size: 30px;
 
 
-
+/* whole background */
   background-color: white;
 
 }
@@ -13,7 +13,7 @@ img {
     width: 150px;
     height: 100px;
 }
-
+/* title february font */
 .title {
   display: grid;
   width: 600px;
@@ -25,7 +25,7 @@ img {
   margin-bottom: 45px;
   color: #28B3C6;
 }
-
+/* weekdays font */
 .week {
   display: grid;
   width: 700px;
@@ -54,10 +54,14 @@ img {
 
 
 }
+.available { cursor: pointer; }
 
+.booked {
+  background-color: #FFD6;
+  color: white;
+}
 
-
-
+/* squeres color  */
 .cell {
   padding: 20px;
   background-color: white;
