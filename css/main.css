@@ -55,15 +55,37 @@ img {
 
 }
 .available { cursor: pointer; }
+/* squeres color  */
+.cell {
+  padding: 5px 0;
+  background-color: white;
+  position: relative;
+}
 
 .booked {
   background-color: #FFD6;
   color: white;
 }
 
-/* squeres color  */
-.cell {
-  padding: 20px;
-  background-color: white;
 
+
+.apt {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  padding-top: 1.2em;
+  box-sizing: border-box;
+}
+
+.appointments {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+  margin-left: 1px;
+  margin-bottom: 45px;
+  color: #FFD62C;
 }
